@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+
+	<tlib-version>1.2</tlib-version>
+
+	<uri>selectTag</uri>
+	<tag>
+		<description>select option</description>
+		<name>select</name>
+		<tag-class>com.lgcns.cnspay.ims.common.tags.CreateCodeSelect</tag-class>
+		<body-content>empty</body-content>
+
+		<attribute>
+			<name>option</name>
+			<type>java.util.List</type>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+		<attribute>
+			<name>name</name>
+			<required>true</required>
+		</attribute>
+		
+		
+		<attribute>
+			<name>id</name>
+			<required>false</required>
+		</attribute>
+		
+
+		<attribute>
+			<name>title</name>
+			<required>false</required>
+		</attribute>
+
+		<attribute>
+			<name>key</name>
+			<required>true</required>
+		</attribute>
+
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+		</attribute>
+		
+		<attribute>
+			<name>onChange</name>
+			<required>false</required>
+		</attribute>
+		
+		<attribute>
+			<name>selectedValue</name>
+			<required>false</required>
+			<type>String</type>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		
+		<attribute>
+			<name>defCol</name>
+			<required>false</required>
+			
+		</attribute>
+		
+	</tag>
+</taglib>
